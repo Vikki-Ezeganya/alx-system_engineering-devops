@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '"(Ôo)'\'; echo -e "\n" >> file.txt
+echo '"(Ôo)'\'
