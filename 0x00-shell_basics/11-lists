@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -maxdepth 1 \( ! -name . -prune \) -printf "Current Directory:\n" -exec sh -c 'ls -al "$0"' {} \; -printf "\nParent Directory:\n" -exec sh -c 'ls -al "$0"' .. \; -printf "\n/boot Directory:\n" -exec sh -c 'ls -al "$0"' /boot \;
